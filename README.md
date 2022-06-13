@@ -1,3 +1,8 @@
+
+<p align="center">
+   <img src="/clocketchip.jpg" width="300">
+</p>
+                                          
 # ClocketCHIP
 An I2C Clock for the PocketCHIP
 
@@ -7,3 +12,7 @@ Place `showtime.sh` and `initialize_displays.sh` in your home directory, then ru
 
 - `@reboot bash /home/chip/init_displays.sh`
 - `* * * * * bash /home/chip/showtime.sh`
+
+## Notes
+- I leave my PocketCHIP plugged into power, as I left it by unplugged and burned out one of the CHIP units I had. The battery seems to be undamaged but the power management of the CHIP failed and now the unit is dead. Recreate at your own risk.
+- I'm not sure the @reboot directive in crontab is supported on CHIP
